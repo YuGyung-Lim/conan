@@ -8,10 +8,6 @@ import hashlib
 import datetime
 import jwt
 
-ca = certifi.where()
-
-client = MongoClient('mongodb+srv://test:sparta@cluster0.l4us7n9.mongodb.net/cluster0?retryWrites=true&w=majority', tlsCAFile=ca)
-db = client.dbsparta
 
 
 
